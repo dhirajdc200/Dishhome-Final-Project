@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - DishHome</title>
+
+    <!--Favicon icon-->
+    <link href="./images/favicon.ico" rel="icon">
+
+    <link rel="stylesheet" href="./Assets/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="product-page">
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <img src="./images/logo.png" alt="Logo" class="sitename">
+            </a>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for...">
+                <button>Search</button>
+            </div>
+            <nav id="navmenu" class="navmenu">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html" class="active">Product</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Explore Our Packages</h1>
+                <p>Find the perfect DishHome package for your home or office, tailored to meet your needs.</p>
+                <a href="#packages" class="btn-primary">View Packages</a>
+            </div>
+            <div class="hero-image">
+                <!--photo link: https://images.app.goo.gl/M6v2bZ9SprFEFkKn6-->
+                <img src="./images/products-hero.jpg" alt="Explore DishHome Packages">
+            </div>
+        </section>
+        
+      
+        <section id="packages" class="packages section">
+            <div class="container">
+                <h2>Get the Best Deals with DishHome</h2>
+        
+                <!-- Radio Buttons for Tabs -->
+                <input type="radio" id="internet-tab" name="package-tabs" class="tab-input" checked>
+                <label for="internet-tab" class="tab-label">Internet Packages</label>
+        
+                <input type="radio" id="tv-tab" name="package-tabs" class="tab-input">
+                <label for="tv-tab" class="tab-label">TV Packages</label>
+        
+                <input type="radio" id="combo-tab" name="package-tabs" class="tab-input">
+                <label for="combo-tab" class="tab-label">TV + Internet Packages</label>
+        
+                <!-- Tab Content for Internet Packages -->
+                <div id="internet-packages-content" class="tab-content">
+                    <div class="card">
+                        <img src="./images/router2.png" alt="100 Mbps Package">
+                        <p class="h3">CATCH THE BIG OFFER - 100 Mbps</p>
+                        <p>Enhance your nuclear family's digital life with our 100 Mbps Nuclear Family package, offering uninterrupted speed.</p>
+                        <p class="price">Rs. 925* /month</p>
+                        <div class="button-container">
+                            <button class="btn-g">View Package</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/router1.png" alt="200 Mbps Package">
+                        <p class="h3">CATCH THE BIG OFFER - 200 Mbps</p>
+                        <p>Seamlessly connect, entertain, and explore with our 200 Mbps Wholesome Family Package, designed for ultimate performance.</p>
+                        <p class="price">Rs. 1,170* /month</p>
+                        <div class="button-container">
+                            <button class="btn-g">View Package</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/router3.png" alt="300 Mbps Package">
+                        <p class="h3">CATCH THE BIG OFFER - 300 Mbps</p>
+                        <p>Rule the gaming world with our 300 Mbps Ultimate Gamer Package, ensuring lag-free gameplay for competitive edge.</p>
+                        <p class="price">Rs. 1,395* /month</p>
+                        <div class="button-container">
+                            <button class="btn-g">View Package</button>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Tab Content for TV Packages -->
+                <div id="tv-packages-content" class="tab-content">
+                    <div class="card">
+                        <img src="./images/basic_tv-removebg-preview.png" alt="Basic TV Package">
+                        <p class="h3">Basic TV Package</p>
+                        <p>Enjoy a variety of channels with our Basic TV Package, perfect for families looking for entertainment.</p>
+                        <p class="price">Rs. 500* /month</p>
+                        <div class="button-container">
+                            <button class="btn-g">View Package</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/standard_tv-removebg-preview.png" alt="Standard TV Package">
+                        <p class="h3">Standard TV Package</p>
+                        <p>Get access to more channels and HD content with our Standard TV Package, offering something for everyone.</p>
+                        <p class="price">Rs. 800* /month</p>
+                        <div class="button-container">
+                            <button class="btn-g">View Package</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/premium_tv-removebg-preview.png" alt="Premium TV Package">
+                        <p class="h3">Premium TV Package</p>
+                        <p>Experience the best of television with our Premium TV Package, featuring premium channels and exclusive content.</p>
+                        <p class="price">Rs. 1,200* /month</p>
+                        <div class="button-container">
+                            <button class="btn-g">View Package</button>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Tab Content for Combo Packages -->
+                <div id="combo-packages-content" class="tab-content">
+                    <div class="card">
+                        <img src="./images/tv+internet-removebg-preview.png" alt="Combo Package 1">
+                        <p class="h3">Combo Package 1</p>
+                        <p>Get the best of both worlds with our Combo Package 1, offering high-speed internet and a variety of TV channels.</p>
+                        <p class="price">Rs. 1,500* /month</p>
+                        <div class="button-container">
+                            <button class="btn-g">View Package</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/tv+internet-removebg-preview.png" alt="Combo Package 2">
+                        <p class="h3">Combo Package 2</p>
+                        <p>Enjoy premium services with our Combo Package 2, featuring high-speed internet and premium TV channels.</p>
+                        <p class="price">Rs. 2,000* /month</p>
+                        <div class="button-container">
+                            <button class="btn-g">View Package</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/tv+internet-removebg-preview.png" alt="Combo Package 3">
+                        <p class="h3">Combo Package 3</p>
+                        <p>Get ultimate entertainment and connectivity with our Combo Package 3, combining the best internet speeds with top TV channels.</p>
+                        <p class="price">Rs. 2,500* /month</p>
+                        <div class="button-container">
+                            <button class="btn-g">View Package</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <!-- Comparison Chart Section -->
+<div class="comparison-chart section">
+    <h3>Compare Our Packages</h3>
+    <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>100 Mbps</th>
+          <th>200 Mbps</th>
+          <th>300 Mbps</th>
+          <th>Basic TV</th>
+          <th>Standard TV</th>
+          <th>Premium TV</th>
+          <th>Combo Package 1</th>
+          <th>Combo Package 2</th>
+          <th>Combo Package 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Price</td>
+          <td data-tooltip="Price for 100 Mbps plan">Rs. 925</td>
+          <td data-tooltip="Price for 200 Mbps plan">Rs. 1,170</td>
+          <td data-tooltip="Price for 300 Mbps plan">Rs. 1,395</td>
+          <td data-tooltip="Price for Basic TV">Rs. 500</td>
+          <td data-tooltip="Price for Standard TV">Rs. 800</td>
+          <td data-tooltip="Price for Premium TV">Rs. 1,200</td>
+          <td data-tooltip="Price for Combo Package 1">Rs. 1,500</td>
+          <td data-tooltip="Price for Combo Package 2">Rs. 2,000</td>
+          <td data-tooltip="Price for Combo Package 3">Rs. 2,500</td>
+        </tr>
+        <tr>
+          <td>Internet Speed</td>
+          <td data-tooltip="Speed offered: 100 Mbps">100 Mbps</td>
+          <td data-tooltip="Speed offered: 200 Mbps">200 Mbps</td>
+          <td data-tooltip="Speed offered: 300 Mbps">300 Mbps</td>
+          <td data-tooltip="Not available for this package" data-icon="-">-</td>
+          <td data-tooltip="Not available for this package" data-icon="-">-</td>
+          <td data-tooltip="Not available for this package" data-icon="-">-</td>
+          <td data-tooltip="Speed offered: 100 Mbps">100 Mbps</td>
+          <td data-tooltip="Speed offered: 200 Mbps">200 Mbps</td>
+          <td data-tooltip="Speed offered: 300 Mbps">300 Mbps</td>
+        </tr>
+        <tr>
+          <td>HD Channels</td>
+          <td data-tooltip="Not included in this package" data-icon="-">-</td>
+          <td data-tooltip="Not included in this package" data-icon="-">-</td>
+          <td data-tooltip="Not included in this package" data-icon="-">-</td>
+          <td data-tooltip="HD Channels included" data-icon="✔">✔</td>
+          <td data-tooltip="HD Channels included" data-icon="✔">✔</td>
+          <td data-tooltip="HD Channels included" data-icon="✔">✔</td>
+          <td data-tooltip="HD Channels included" data-icon="✔">✔</td>
+          <td data-tooltip="HD Channels included" data-icon="✔">✔</td>
+          <td data-tooltip="HD Channels included" data-icon="✔">✔</td>
+        </tr>
+        <tr>
+          <td>Exclusive Content</td>
+          <td data-tooltip="Not included in this package" data-icon="-">-</td>
+          <td data-tooltip="Not included in this package" data-icon="-">-</td>
+          <td data-tooltip="Not included in this package" data-icon="-">-</td>
+          <td data-tooltip="Exclusive Content included" data-icon="✔">✔</td>
+          <td data-tooltip="Exclusive Content included" data-icon="✔">✔</td>
+          <td data-tooltip="Exclusive Content included" data-icon="✔">✔</td>
+          <td data-tooltip="Exclusive Content included" data-icon="✔">✔</td>
+          <td data-tooltip="Exclusive Content included" data-icon="✔">✔</td>
+          <td data-tooltip="Exclusive Content included" data-icon="✔">✔</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+</div>
+ 
+
+  <!-- Special Offers Section -->
+  <div class="special-offers section">
+    <h3>Special Offers</h3>
+    <div class="offers-container">
+        <div data-tooltip="3 days remaining. Hurry up!" class="offer">
+            <p class="offer-text">Sign up for our Combo Package 3 and get the first month free! Offer valid till end of the month.</p>
+            <div class="countdown-timer">
+                <p>Time Left:<span id="countdown"> 3 days</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Customer Reviews Section -->
+<div class="customer-reviews section">
+    <h3>Customer Reviews</h3>
+    <div class="reviews-container">
+        <div class="review">
+            <p class="review-text">"DishHome has transformed our entertainment experience! The combo package is a fantastic deal!" - <strong>John Doe</strong></p>
+            <div class="star-rating" id="review-stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+            </div>
+        </div>
+        <div class="review">
+            <p class="review-text">"Excellent customer service and reliable internet connection. Highly recommend!" - <strong>Jane Smith</strong></p>
+            <div class="star-rating" id="review-stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+            </div>
+        </div>
+        <div class="review">
+            <p class="review-text">"The internet service from Dishhome is superb. It is reliable and fast, making it perfect for both work and entertainment." - <strong>Bikram Khatri</strong></p>
+            <div class="star-rating" id="review-stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+            </div>
+        </div>
+        <div class="review">
+            <p class="review-text">"I have been using Dishhome for years and I am extremely satisfied. The variety of channels and the quality of service is unmatched." - <strong>Raj Neupane</strong></p>
+            <div class="star-rating" id="review-stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+            </div>
+        </div>
+        <div class="review">
+            <p class="review-text">"Dishhome's internet service has never let me down. It’s fast, reliable, and perfect for streaming and online gaming." - <strong>Arpan Gurung</strong></p>
+            <div class="star-rating" id="review-stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--/reviews section-->
+
+<!-- User Review Section -->
+<section id="user-reviews" class="user-reviews section">
+  <div class="container">
+    <div class="section-title text-center">
+      <h2>Submit Your Review</h2>
+      <p>We'd love to hear from you!</p>
+    </div>
+
+    <div class="review-form-container">
+      <form id="review-form" class="review-form">
+        <div class="form-group">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="rating" class="form-label">Rating</label>
+          <div class="star-rating">
+            <input type="radio" id="star5" name="rating" value="5" required>
+            <label for="star5" title="5 stars">&#9733;</label>
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4" title="4 stars">&#9733;</label>
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3" title="3 stars">&#9733;</label>
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2" title="2 stars">&#9733;</label>
+            <input type="radio" id="star1" name="rating" value="1">
+            <label for="star1" title="1 star">&#9733;</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="review" class="form-label">Review</label>
+          <textarea class="form-control" id="review" rows="3" placeholder="Write your review here" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-submit">Submit Review</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+</div>
+
+</div>
+</section>
+</main>
+<footer id="footer" class="footer dark-background">
+    <div class="container">
+        <h3 class="sitename">
+            <a href="index.html">DishHome</a>
+        </h3>
+        <p>Connecting You to a World of Entertainment</p>
+        <div class="social-links d-flex justify-content-center">
+            <a href="https://x.com/" target="_blank"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <p> Copyright © 2024, Final Project</p>
+            </div>
+            <div class="disclaimer">
+                <p>Disclaimer: <br>"This website is a student project created for educational purposes only and is not affiliated with or endorsed by DishHome."</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>    
+</html>
